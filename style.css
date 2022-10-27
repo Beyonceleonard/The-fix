@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#coverpage {
+    width: 100px;
+    height: 100px;
+    background-image: url(/img/Low\ Polygon\ Geometric\ Banner\ Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+    border: 1px solid transparent;
+    background-color: black;
+
+}
+
+.box ul li a {
+    float: right;
+}
+
+h2 {
+    float: left;
+}
+
+ul li a {
+    float: left;
+}
+
+ul li {
+    float: left;
+    width: 90px;
+    position: relative;
+    left: 25%;
+    list-style-type: none;
+    font-family: roboto condensed, sans-serif;
+    font-size: 18px;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+ul li a:hover {
+    border-bottom: 4px solid #6c7ae0;
+
+}
